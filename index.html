@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>ElGen.io | Portal Web</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- estilos personalizados -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="contenedor-app">
+
+        <!--MENU LATERAL-->
+        <aside class="menu-lateral">
+
+            <div class="logo-menu">
+                <img src="img/logo.png" alt="Logo ElGen.io" class="img-fluid">
+            </div>
+
+            <!--MENÚ-->
+            <nav class="nav flex-column nav-menu">
+                <a class="nav-link activo" href="#" data-page="inicio">Inicio</a>
+                <a class="nav-link" href="#" data-page="acerca">Acerca de</a>
+                <a class="nav-link" href="#" data-page="servicios">Servicios</a>
+                <a class="nav-link" href="#" data-page="blog">Blog</a>
+                <a class="nav-link" href="#" data-page="contacto">Contacto</a>
+            </nav>
+
+        </aside>
+
+        <!--CONTENIDO CENTRAL-->
+        <main class="contenido-central">
+
+            <!--INICIO-->
+            <section class="pagina seccion-fondo activa" id="page-inicio">
+                <div class="contenido-pagina">
+                    <h1 class="titulo-pagina">Bienvenido a ElGen.io</h1>
+
+                    <p class="texto-pagina">
+                        ElGen.io cumple tus deseos de modernización e integración de
+                        tecnologías de la nube.
+                    </p>
+
+                    <p class="texto-pagina">
+                        <!-- enlaces a otras secciones -->
+                        Averigua más
+                        <a href="#" class="enlace-texto" data-page="acerca">acerca de nosotros</a>,
+                        revisa nuestros
+                        <a href="#" class="enlace-texto" data-page="servicios">servicios</a>,
+                        infórmate en nuestro
+                        <a href="#" class="enlace-texto" data-page="blog">blog</a>
+                        o
+                        <a href="#" class="enlace-texto" data-page="contacto">contacta</a>
+                        con nosotros.
+                    </p>
+
+                </div>
+            </section>
+
+            <!-- PÁGINA 2: ACERCA DE  -->
+            <section class="pagina seccion-fondo" id="page-acerca">
+                <div class="contenido-pagina">
+
+                    <h1 class="titulo-pagina">Acerca de nosotros</h1>
+
+                    <p class="texto-pagina">
+                       !! Tus aliados en Transformación digital ¡¡
+                    </p>
+
+                    <p class="texto-pagina">
+                        Somos una empresa que asesora a otras organizaciones para modernizar sus procesos, adoptar nuevas tecnologías y optimizar su competitividad.
+                    </p>
+
+                    <p class="texto-pagina">
+                        Consultores especializados
+                        Contamos con personal calificado y seleccionado por su experiencia y capacidad, para atender tus problemas empresariales de forma práctica, rápida y exitosa.
+                    </p>
+
+                    <p class="texto-pagina">
+                        Ph.D. Bhylenia Rios, Fundadora y CEO de ElGen.io "La tecnología debe adaptarse a las personas, y no al revés."
+                    </p>
+                    
+                    <p class="texto-pagina">
+                        Lic. Clavel Alvarez Renan Kevin, CTO/CIO (Director de Tecnología) 
+                    </p>
+                    
+
+                </div>
+            </section>
+
+            <!--CARROUSEL-->
+            <section class="pagina seccion-fondo" id="page-servicios">
+                <div class="contenido-pagina">
+
+                    <h1 class="titulo-pagina">Nuestros servicios</h1>
+
+                    <!--SERVICIOS-->
+                    <div id="carruselServicios" class="carousel slide carrusel-servicios" data-bs-ride="false">
+                        <!--SERVICIO 1-->
+                        <div class="carousel-inner">
+
+                            <div class="carousel-item active">
+                                <div class="servicio-slide">
+                                    <h3 class="servicio-titulo">Desarrollo de Software a Medida</h3>
+                                    <p class="servicio-texto">
+                                        Creación de aplicaciones web, móviles y plataformas
+                                        escalables adaptadas a las necesidades del negocio.
+                                    </p>
+                                    <img src="img/desarrolloDeSoftware.png" alt="Desarrollo de software a medida" class="servicio-img">
+                                </div>
+                            </div>
+
+                            <!--SERVICIO 2-->
+                            <div class="carousel-item">
+                                <div class="servicio-slide">
+                                    <h3 class="servicio-titulo">Integración de Tecnologías Avanzadas</h3>
+                                    <p class="servicio-texto">
+                                        Implementación de Inteligencia Artificial (IA),
+                                        automatización robótica de procesos (RPA), Big Data
+                                        y servicios en la nube.
+                                    </p>
+                                    <img src="img/integracion.png" alt="Integración de tecnologías avanzadas" class="servicio-img">
+                                </div>
+                            </div>
+
+                            <!--SERVICIO 3-->
+                            <div class="carousel-item">
+                                <div class="servicio-slide">
+                                    <h3 class="servicio-titulo">Consultoría Estratégica Digital</h3>
+                                    <p class="servicio-texto">
+                                        Diagnóstico de madurez tecnológica y diseño de hojas
+                                        de ruta (roadmaps) para la modernización operativa.
+                                    </p>
+                                    <img src="img/consultoria.png" alt="Consultoría estratégica digital" class="servicio-img">
+                                </div>
+                            </div>
+
+                            <!--SERVICIO 4-->
+                            <div class="carousel-item">
+                                <div class="servicio-slide">
+                                    <h3 class="servicio-titulo">Consultoría en Ciberseguridad:</h3>
+                                    <p class="servicio-texto">
+                                        Evaluación de riesgos, diseño de arquitecturas de seguridad, protección de datos y cumplimiento normativo.
+                                    </p>
+                                    <img src="img/ciberseguridad.png" alt="Consultoría estratégica digital" class="servicio-img">
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carruselServicios" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Anterior</span>
+                        </button>
+
+                        <button class="carousel-control-next" type="button" data-bs-target="#carruselServicios" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Siguiente</span>
+                        </button>
+
+                    </div>
+
+                </div>
+            </section>
+
+            <!-- BLOG con tarjetas -->
+            <section class="pagina seccion-fondo" id="page-blog">
+                <div class="contenido-pagina">
+                    
+                    <h1 class="titulo-pagina">Nuestro Blog</h1>
+
+                    <!-- matriz 3 x 3  -->
+                    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4 justify-content-center">
+
+                        <!--  TARJETA 1 -->
+                          <div class="col">
+                            <div class="flip-card">
+                                <div class="flip-card-inner">
+                                    <!-- frente-->
+                                    <div class="flip-card-front">
+                                        <!-- titulo -->
+                                        <img src="img/tarjeta1.png" alt="Título del artículo 1">
+                                        <h5>Nano Banana de Google: Edición de Imágenes Inteligente y Ultra-rápida</h5>
+                                    </div>
+                                    <!-- datos -->
+                                    <div class="flip-card-back">
+                                        <p>Nano Banana es el nombre interno del modelo Gemini 2.5 Flash Image, una herramienta de edición y generación de imágenes con IA desarrollada por Google DeepMind. Ya disponible en la app Gemini, tanto para usuarios gratuitos como pagados, Nano Banana permite: 
+                                            Combinar imágenes o aplicar ediciones precisas con solo escribir lo que deseas.
+                                            Mantener la coherencia visual, de rostros, mascotas o productos, incluso tras múltiples cambios.
+                                            Realizar tareas como: borrar personas o manchas, cambiar fondos, colorear fotos en blanco y negro...
+                                            </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--  TARJETA 2  -->
+                        <div class="col">
+                            <div class="flip-card">
+                                <div class="flip-card-inner">
+                                    <div class="flip-card-front">
+                                        <img src="img/tarjeta2.png" alt="Título del artículo 2">
+                                        <h5>Por qué tu empresa debe dejar de usar Webmail</h5>
+                                    </div>
+                                    <div class="flip-card-back">
+                                        <p>La trampa de lo gratis: Cuando una empresa inicia su presencia digital, lo habitual es contratar un dominio y un servicio de hosting para la página web. La mayoría de estos proveedores ofrecen, como un bono gratuito, cuentas de correo ilimitadas a través de cPanel (Webmail).
+                                            Suena perfecto: «Correo gratis para todos mis empleados». Sin embargo, lo que parece un ahorro inicial se convierte rápidamente en un costo oculto de productividad, seguridad e imagen.
+                                            Si tu equipo sigue batallando con interfaces... </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--  TARJETA  3 -->
+                        <div class="col">
+                            <div class="flip-card">
+                                <div class="flip-card-inner">
+                                    <div class="flip-card-front">
+                                        <img src="img/tarjeta3.png" alt="Título del artículo 3">
+                                        <h5>Desbloqueando el Poder de la Verificación en Dos Pasos (2FA)</h5>
+                                    </div>
+                                    <div class="flip-card-back">
+                                        <p>En el mundo digital actual, tu cuenta de Google Workspace es la llave que abre la puerta a tu correo electrónico, documentos sensibles, reuniones y toda la información crucial de la organización. Tradicionalmente, confiamos en una contraseña como nuestra única barrera de defensa.
+                                           Pero, ¿qué pasa si esa contraseña es robada? Lamentablemente, las contraseñas se filtran constantemente debido a brechas de datos en sitios web de terceros o son robadas mediante correos de phishing increíblemente convincent.... </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--  TARJETA 4  -->
+                        <div class="col">
+                            <div class="flip-card">
+                                <div class="flip-card-inner">
+                                    <div class="flip-card-front">
+                                        <img src="img/tarjeta4.png" alt="Título del artículo 4">
+                                        <h5>Un error de configuración puede poner en riego la estabilidad financiera de tu empresa</h5>
+                                    </div>
+                                    <div class="flip-card-back">
+                                        <p>Hoy en día, para que la IA funcione en tu web o app, necesitas una «llave digital» llamada API Key. Es como la tarjeta de crédito de tu empresa conectada directamente al motor de Google o Gemini. El problema es que hay delincuentes digitales con programas automáticos que escanean internet buscando estas llaves las 24 horas del día. Si por alguna razón encuentran la tuya, porque alguien la dejó «descuidada» en el código de tu página, las consecuencias económicas son inmediatas...</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--  TARJETA 5  -->
+                        <div class="col">
+                            <div class="flip-card">
+                                <div class="flip-card-inner">
+                                    <div class="flip-card-front">
+                                        <img src="img/tarjeta5.png" alt="Título del artículo 5">
+                                        <h5>Google ya permite cambiar tu dirección de correo de Gmail</h5>
+                                    </div>
+                                    <div class="flip-card-back">
+                                        <p>Por fin: Google ya permite cambiar tu dirección de correo de Gmail sin crear una cuenta nueva, Google ha escuchado a los usuarios. Así que desde este 1 de abril, la función para cambiar tu dirección de correo de Gmail (@gmail.com) de forma directa ya es una realidad. Se acabó la necesidad de crear cuentas nuevas o hacer migraciones complejas para deshacerte de ese nombre de usuario antiguo. deja de usar Outlook para acceder a Gmail expertosis 2023 Aclaraciones importantes que ...</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--  TARJETA 6  -->
+                        <div class="col">
+                            <div class="flip-card">
+                                <div class="flip-card-inner">
+                                    <div class="flip-card-front">
+                                        <img src="img/tarjeta6.png" alt="Título del artículo 6">
+                                        <h5>Microsoft Team ahora disponible el nuevo resumen automático por IA</h5>
+                                    </div>
+                                    <div class="flip-card-back">
+                                        <p>Grabar reuniones no es nada nuevo, pero la acumulación de archivos de vídeo sin indexar genera «ruido» digital. La diferencia con esta nueva actualización es que Teams ya no se limita a guardar el archivo; ahora interpreta el contenido con la ayuda de la Inteligencia Artificial. La IA analiza la sesión y genera una síntesis visual que destaca los puntos de inflexión. No solo extrae audio, sino que integra las diapositivas y pantallas compartidas, permitiendo que cualquier persona que  </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </section>
+
+            <!-- CONTACTO con modal -->
+            <section class="pagina seccion-fondo" id="page-contacto">
+                <div class="contenido-pagina">
+                    
+                    <h1 class="titulo-pagina">Contacto</h1>
+                    <p class="texto-pagina">
+                        
+                        
+                        ¿Tienes una consulta? Escríbenos completando el siguiente
+                        formulario y nos pondremos en contacto contigo.
+                    </p>
+
+                    <!-- FORMULARIO VALIDADO PARA DATOS FALTANTES --> 
+                    <form id="formContacto" class="formulario-contacto" novalidate>
+
+                        <div class="mb-3 text-start">
+                            <label for="correo" class="form-label">Correo</label>
+                            <input type="email" class="form-control" id="correo" placeholder="ejemplo@correo.com">
+                        </div>
+
+                        <div class="mb-3 text-start">
+                            <label for="celular" class="form-label">Celular</label>
+                            <input type="tel" class="form-control" id="celular" placeholder="999 999 999">
+                        </div>
+
+                        <div class="mb-3 text-start">
+                            <label for="consulta" class="form-label">Consulta</label>
+                            <textarea class="form-control" id="consulta" rows="4" placeholder="Escribe tu consulta..."></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-enviar">Enviar</button>
+
+                    </form>
+
+                </div>
+            </section>
+
+        </main>
+
+    </div>
+
+    <!-- modal-->
+    <div class="modal fade" id="modalAviso" tabindex="-1" aria-labelledby="modalAvisoLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalAvisoLabel">Campos incompletos</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                </div>
+                <div class="modal-body" id="modalAvisoCuerpo">
+                    <!-- campos faltantes escritos por JS mediante el id -->
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Entendido</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="js/script.js"></script>  <!-- JavaScript personalizado -->
+</body>
+</html>
